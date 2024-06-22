@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+body {
+  padding: 20px;
+  background-color: #ccc;
+  overflow-x: hidden;
+}

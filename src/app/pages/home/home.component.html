@@ -1,0 +1,12 @@
+<div class="home">
+  <div *ngFor="let movie of movies">
+    <img
+      [src]="movie.backdrop_path"
+      [alt]="movie.original_title"
+    />
+    <div>
+      <h1>{{ movie.original_title }}</h1>
+      <p>{{ movie.overview }}</p>
+    </div>
+  </div>
+</div>

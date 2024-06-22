@@ -1,0 +1,8 @@
+<form [formGroup]="form" autocomplete='off'>
+  <h1>Login</h1>
+  
+  <input type='email' formControlName='email'/>
+  <input type='password' formControlName='password'/>
+
+  <button type='submit' (click)="submit()">Login</button>
+</form>
